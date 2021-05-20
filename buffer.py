@@ -1,3 +1,4 @@
+# -*- coding: utf-8 -*-
 # buffer structure: FIFO, circular
 #   self.data [] : a list store data
 #   self.store int: count data units stored in the buffer
@@ -12,6 +13,7 @@
 
 import collections
 import multiprocessing as mp
+import sys
 
 class Buffer:
      CONST_BUFFER_SIZE = 1000
