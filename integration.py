@@ -5,6 +5,7 @@ import os
 import sys
 import time
 import math
+import mxnet
 import multiprocessing
 from multiprocessing import Process, Queue, Pool, Manager
 
