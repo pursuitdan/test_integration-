@@ -1,3 +1,4 @@
+import mxnet
 #!/usr/bin/python
 # -*- coding: utf-8 -*-
 import os, sys
@@ -5,7 +6,6 @@ import os
 import sys
 import time
 import math
-import mxnet
 import multiprocessing
 from multiprocessing import Process, Queue, Pool, Manager
 
