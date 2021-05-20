@@ -1,4 +1,6 @@
+#!/usr/bin/python
 # -*- coding: utf-8 -*-
+import os, sys
 # buffer structure: FIFO, circular
 #   self.data [] : a list store data
 #   self.store int: count data units stored in the buffer
