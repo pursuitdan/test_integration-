@@ -1,6 +1,5 @@
-import mxnet
 #!/usr/bin/python
-# -*- coding: utf-8 -*-
+# coding=utf-8
 import os, sys
 # buffer structure: FIFO, circular
 #   self.data [] : a list store data
